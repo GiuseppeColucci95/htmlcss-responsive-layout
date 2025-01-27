@@ -43,12 +43,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  /* margin: 0 -1rem; */
 }
-
-/* [class^="col"] {
-  padding: 1rem;
-} */
 
 .col-1 {
   width: calc(100% / 12 * 1);
@@ -329,11 +324,11 @@ footer {
     text-align: left;
   }
 
-  #video {
+  .container-md-90 {
+    width: 90%;
+  }
 
-    .container-md-90 {
-      width: 90%;
-    }
+  #video {
 
     h5 {
       padding-top: 2.5rem;
@@ -368,10 +363,6 @@ footer {
 
   #social {
 
-    .container-md-90 {
-      width: 90%;
-    }
-
     .row {
 
       a {
@@ -382,31 +373,21 @@ footer {
 
   #banner {
 
-    .container-md-90 {
-      width: 90%;
-    }
-
     img {
       display: block;
       padding-bottom: 2.5rem;
     }
   }
 
-  #presentation {
-
-    .container-md-90 {
-      width: 90%;
-    }
-  }
 }
 
 @media screen and (min-width: 992px) {
 
-  #video {
+  .container-lg-80 {
+    width: 80%;
+  }
 
-    .container-lg-80 {
-      width: 80%;
-    }
+  #video {
 
     .title {
       font-size: 3rem;
@@ -444,10 +425,6 @@ footer {
 
   #social {
 
-    .container-lg-80 {
-      width: 80%;
-    }
-
     .row {
 
       a {
@@ -460,20 +437,6 @@ footer {
           font-size: 0.75rem;
         }
       }
-    }
-  }
-
-  #banner {
-
-    .container-lg-80 {
-      width: 80%;
-    }
-  }
-
-  #presentation {
-
-    .container-lg-80 {
-      width: 80%;
     }
   }
 
