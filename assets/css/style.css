@@ -15,6 +15,9 @@
   --gb-instagram-color: #dd457e;
   --gb-pinterest-color: #e62337;
   --gb-youtube-color: #e62222;
+  --gb-bg-color: #f6f5f3;
+  --gb-lighter-color: white;
+  --gb-darker-color: black;
 }
 
 /* #endregion common */
@@ -28,9 +31,31 @@
   }
 }
 
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pbt-05 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
 /* #endregion utilities */
 
 /* #region layout */
+
+.container-100 {
+  width: 100%;
+}
+
+.container-95 {
+  width: 95%;
+  margin: 0 auto;
+}
 
 .row {
   display: flex;
@@ -107,7 +132,46 @@ header {
 
 /* #region main */
 
+body {
+  font-family: Montserrat, 'Helvetica Neue', sans-serif;
+  ;
+}
 
+#video {
+  background-color: var(--gb-bg-color);
+
+  h5 {
+    color: var(--gb-head-second-color);
+    font-weight: 200;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--gb-head-color);
+  }
+
+  .brackets {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .container-100 {
+    background-color: var(--gb-lighter-color);
+    box-shadow: 1px 2px 20px 0px var(--gb-head-second-color);
+    padding: 2rem;
+
+    h2 {
+      padding-bottom: 1.5rem;
+    }
+  }
+}
 
 /* #endregion main */
 
