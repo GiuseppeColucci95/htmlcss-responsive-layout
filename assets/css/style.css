@@ -120,12 +120,16 @@
 /* #region header */
 
 header {
-  font-family: 'Nerko One', cursive;
+  font-family: "Nerko One", serif;
   padding: 0.5rem 1rem;
 
   color: var(--gb-header-color);
   font-size: 1rem;
   text-align: center;
+
+  h1 {
+    text-shadow: 1px 1px var(--gb-head-second-color);
+  }
 }
 
 /* #endregion header */
