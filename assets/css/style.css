@@ -217,6 +217,35 @@ body {
   }
 }
 
+#presentation {
+  background-color: var(--gb-bg-color);
+
+  h2 {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  hr {
+    width: 20%;
+    border: 1px solid var(--gb-header-color);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 1rem 0 4rem 0;
+    line-height: 2rem;
+  }
+}
+
 /* #endregion main */
 
 /* #region footer */
