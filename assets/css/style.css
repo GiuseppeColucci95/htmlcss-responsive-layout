@@ -208,6 +208,15 @@ body {
 
 }
 
+#banner {
+  background-color: var(--gb-bg-color);
+
+  img {
+    width: 100%;
+    display: none;
+  }
+}
+
 /* #endregion main */
 
 /* #region footer */
@@ -276,6 +285,18 @@ body {
       }
     }
   }
+
+  #banner {
+
+    .container-md-90 {
+      width: 90%;
+    }
+
+    img {
+      display: block;
+      padding-bottom: 2.5rem;
+    }
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -338,6 +359,13 @@ body {
           font-size: 0.75rem;
         }
       }
+    }
+  }
+
+  #banner {
+
+    .container-lg-80 {
+      width: 80%;
     }
   }
 }
