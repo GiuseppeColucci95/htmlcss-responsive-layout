@@ -234,8 +234,9 @@ body {
 
   img {
     display: block;
-    width: 60%;
-    margin: auto;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 7px 20px 0px var(--gb-head-second-color)
   }
 
   p {
@@ -326,6 +327,23 @@ body {
       padding-bottom: 2.5rem;
     }
   }
+
+  #presentation {
+
+    .container-md-90 {
+      width: 90%;
+    }
+
+    img {
+      display: inline-block;
+      float: left;
+      margin-right: 1rem;
+    }
+
+    p {
+      padding-top: 0;
+    }
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -397,6 +415,12 @@ body {
       width: 80%;
     }
   }
-}
 
-/* #endregion media-query */
+  #presentation {
+
+    .container-lg-80 {
+      width: 80%;
+    }
+  }
+
+  /* #endregion media-query */
