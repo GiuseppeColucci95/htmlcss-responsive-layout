@@ -5,6 +5,18 @@
   box-sizing: border-box;
 }
 
+:root {
+  --gb-header-color: #ff9614;
+  --gb-head-color: #4e3969;
+  --gb-head-second-color: #a2a2a2;
+  --gb-footer-bg-color: #7c69a4;
+  --gb-facebook-color: #1a77f3;
+  --gb-twitter-color: #009eff;
+  --gb-instagram-color: #dd457e;
+  --gb-pinterest-color: #e62337;
+  --gb-youtube-color: #e62222;
+}
+
 /* #endregion common */
 
 /* #region utilities */
