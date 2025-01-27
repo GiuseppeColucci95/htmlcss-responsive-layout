@@ -35,10 +35,6 @@
 
 /* #region layout */
 
-.container-100 {
-  width: 100%;
-}
-
 .container-95 {
   width: 95%;
   margin: 0 auto;
@@ -169,6 +165,47 @@ body {
       padding-bottom: 0.5rem;
     }
   }
+}
+
+#social {
+  background-color: var(--gb-bg-color);
+
+  .icon-text {
+    display: none;
+  }
+
+  .row {
+    padding: 3rem 0;
+    justify-content: space-between;
+
+    a {
+      padding: 0.75rem 1rem;
+      background-color: var(--gb-lighter-color);
+      border-radius: 3rem;
+      box-shadow: 0px 5px 10px 0px var(--gb-head-second-color);
+
+      .fa-facebook {
+        color: var(--gb-facebook-color);
+      }
+
+      .fa-twitter {
+        color: var(--gb-twitter-color);
+      }
+
+      .fa-instagram {
+        color: var(--gb-instagram-color);
+      }
+
+      .fa-pinterest {
+        color: var(--gb-pinterest-color);
+      }
+
+      .fa-youtube {
+        color: var(--gb-youtube-color);
+      }
+    }
+  }
+
 }
 
 /* #endregion main */
