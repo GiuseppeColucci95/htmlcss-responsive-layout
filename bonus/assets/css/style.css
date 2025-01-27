@@ -295,6 +295,34 @@ footer {
 
 /* #region media-query */
 
+@media screen and (min-width: 576px) {
+
+  #presentation {
+
+    img {
+      display: inline-block;
+      float: left;
+      margin-right: 1rem;
+    }
+
+    p {
+      padding-top: 0;
+    }
+  }
+
+  #social {
+
+    .row {
+      flex-wrap: nowrap;
+      gap: 1rem;
+
+      a {
+        padding: 0.75rem 2.5rem;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 768px) {
 
   header {
@@ -345,8 +373,6 @@ footer {
     }
 
     .row {
-      flex-wrap: nowrap;
-      gap: 1rem;
 
       a {
         padding: 0.75rem 3rem;
@@ -370,16 +396,6 @@ footer {
 
     .container-md-90 {
       width: 90%;
-    }
-
-    img {
-      display: inline-block;
-      float: left;
-      margin-right: 1rem;
-    }
-
-    p {
-      padding-top: 0;
     }
   }
 }
