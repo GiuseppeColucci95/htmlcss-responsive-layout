@@ -47,12 +47,12 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -1rem;
+  /* margin: 0 -1rem; */
 }
 
-[class^="col"] {
+/* [class^="col"] {
   padding: 1rem;
-}
+} */
 
 .col-1 {
   width: calc(100% / 12 * 1);
@@ -140,8 +140,10 @@ body {
   }
 
   .title {
+    display: inline-block;
     font-size: 1.5rem;
     font-weight: 600;
+    padding-bottom: 1rem;
     color: var(--gb-head-color);
   }
 
@@ -154,7 +156,6 @@ body {
   }
 
   .col-12>.row {
-    margin: 0;
     background-color: var(--gb-lighter-color);
     box-shadow: 1px 2px 20px 0px var(--gb-head-second-color);
     padding: 2rem;
@@ -167,11 +168,6 @@ body {
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
     }
-  }
-
-  .row>.col-12 {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 }
 
@@ -216,10 +212,13 @@ body {
 
     .col-12>.row {
 
+      h2 {
+        padding-bottom: 2rem;
+      }
+
       .col-md-4 {
         width: calc(100% / 12 * 4);
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding: 1rem 0;
       }
     }
 
@@ -230,31 +229,28 @@ body {
 
   #video {
 
-    .container-lg-70 {
+    .container-lg-80 {
       width: 80%;
     }
 
-    .col-lg-8 {
+    .col-lg-9 {
       width: calc(100% / 12 * 8);
-      padding-right: 0;
     }
 
-    .col-lg-4 {
+    .col-lg-3 {
       width: calc(100% / 12 * 4);
-      padding-left: 0;
-      padding: 1;
 
       .row {
+        height: 100%;
+        flex-direction: column;
+        justify-content: start;
 
         h2 {
-          padding: 0.5rem 0;
+          padding: 0;
         }
 
         .col-lg-12 {
           width: 100%;
-          padding: 0;
-          padding-top: 0.5rem;
-          padding-bottom: 0.5rem;
         }
       }
     }
